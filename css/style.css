@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family= Fira + Sans:wght@400;600;900 & display=swap');
+
+:root {       /* CORES DO SITE */
+    --azul:       #03A9F4;
+    --azul-claro: #00BCD4;
+    --azul-verde: #00FFFF;
+    --roxo:       #8D239F;
+    --ciza:       #3B4C55;
+    ---branco:    #F5F5F5;
+    --braco-puro: #FFFFFF;  
+    --preto:      #000000;
+    --preto-claro:#343A40;
+}
+
+
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+}
+
+/* Menu de navegação */
+.flex-navbar {
+    display: flex;
+    gap: 8px;
+    background-color: var(--azul);
+    padding: 0px 10px;
+    height: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-logo img {
+    width: 220px;
+}
+
+.flex-itens-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.flex-itens-menu li {
+    border: 1px solid transparent;
+}
+
+.flex-itens-menu li:hover {
+    border-radius: 15px;
+    border-bottom: 2px solid var(--azul-verde);
+}
+
+.flex-itens-menu li a {
+    padding: 3px 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(---branco);
+    cursor: pointer;
+}
+
+/* Fim do estilo do menu */
+.menu-pesquisa {
+    display: flex;
+    background-color: var(--preto-claro);
+    justify-content: center; 
+    align-items: center;
+    height: 120px;  
+    padding: 0px 5px;
+}
+
+.menu-busca input[type="text"] {
+    width: 300px;
+    height: 30px;
+    border: transparent;
+    outline: none;
+    border-radius: 15px 0px 0px 15px;
+    padding: 0px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-right: -5.2px;
+}
+.menu-busca input[type="button"] {
+    width: 100px;
+    height: 30px;
+    border: transparent;
+    outline: none;
+    border-radius: 0px 15px 15px 0px;
+    padding-left: 20px;
+    background-color: var(--azul);
+    color: var(--braco-puro);
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.menu-busca input[type="button"]:hover {
+    color: var(--azul-verde);
+    cursor: pointer;
+}
+
+.menu-barra {
+    background-color: var(--azul);
+    height: 50px;
+}
+
