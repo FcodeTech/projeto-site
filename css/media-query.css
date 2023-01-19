@@ -1,12 +1,76 @@
 @charset "UTF-8";
 @media screen and (max-width: 768px) {
 
+    .flex-logo {
+        display: none;
+    }
+
+    :root { /* ----CORES DO SITE---- */
+        --azul:             #03A9F4;
+        --azul-claro:       #00BCD4;
+        --azul-verde:       #00FFFF;
+        --roxo:             #8D239F;
+        --ciza:             #3B4C55;
+        --ciza-claro:       #4E4E4E;
+        --ciza-bclaro:      #C2C8C5;
+        --ciza-escuro:      #292929;
+        --branco:          #F5F5F5;
+        --braco-puro:       #FFFFFF;  
+        --preto:            #000000;
+        --preto-claro:      #343A40;
+    }
+    
+
+    /******MOBILE FORST******************/
+
+    .flex-itens-menu ul .logo-mobi {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .logo-mobi {
+        width: 4em;
+    }
+    .flex-itens-menu .fundo{
+        border-bottom: 3px solid var(--azul-verde);
+       display: block;
+       margin: 0px -87px;  
+       margin-bottom: 20px;
+
+    }
+  
+    ul {
+        background-color: rgba(0,0,0, 0.88);
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding: 20px 87px;
+        flex-direction: column;
+    }
+
+
+     li {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    li a {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        padding: 0px 10px;
+        border-radius: none;
+    }
+
+
+    /********FIM DO MENU***************/
     #burgue {
         display: flex;
     }
 
     #menu {
-        display: none;
+        display: ;
     }
 
 }   /* Mobile de 550 px */
@@ -16,23 +80,12 @@
     .menu-busca input[type="text"] {
         width: 220px;
         height: 30px;
-        border: transparent;
-        outline: none;
-        border-radius: 15px 0px 0px 15px;
-        padding: 0px 20px;
         font-family: sans-serif;
         font-size: 13px;
-        margin-right: -5.2px;
     }
     .menu-busca input[type="button"] {
         width: 80px;
         height: 30px;
-        border: transparent;
-        outline: none;
-        border-radius: 0px 15px 15px 0px;
-        padding: 0px;
-        background-color: var(--azul);
-        color: var(--braco-puro);
         font-family: sans-serif;
         font-size: 13px;
     }
@@ -44,40 +97,30 @@
         cursor: pointer;
     }
 
-}   /* Mobile de 320 px */
+
+}   /* Mobile de 350 px */
 
     @media screen and (max-width: 350px) {
     
         .menu-busca input[type="text"] {
             width: 200px;
             height: 30px;
-            border: transparent;
-            outline: none;
-            border-radius: 15px 0px 0px 15px;
-            padding: 0px 20px;
             font-family: sans-serif;
             font-size: 12px;
-            margin-right: -5.2px;
         }
         .menu-busca input[type="button"] {
             width: 60px;
             height: 30px;
-            border: transparent;
-            outline: none;
-            border-radius: 0px 15px 15px 0px;
-            padding: 0px;
-            background-color: var(--azul);
-            color: var(--braco-puro);
             font-family: sans-serif;
             font-size: 12px;
         }
         
         .menu-busca input[type="button"]:hover {
             background-color: var(--ciza-escuro);
-            transition: ;
             color: var(--azul-verde);
             cursor: pointer;
         }
+       
         
 }
     
