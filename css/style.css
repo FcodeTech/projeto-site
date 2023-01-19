@@ -58,12 +58,12 @@
 }
 
 .flex-itens-menu li {
-    border: 1px solid transparent;
+    border: 3px solid transparent;
 }
 
 .flex-itens-menu li:hover {
     border-radius: 15px;
-    border-bottom: 2px solid var(--azul-verde);
+    border-bottom: 3px solid var(--braco-puro);
 }
 
 .flex-itens-menu li a {
@@ -73,6 +73,10 @@
     color: var(--branco);
     cursor: pointer;
     text-shadow: var(--ciza-claro) 1px 1px 3px;
+}
+
+.fundo h1 {
+    display: none;
 }
 
 /* Fim do estilo do menu */
@@ -109,9 +113,9 @@
 }
 
 .menu-busca input[type="button"]:hover {
-    background-color: var(--ciza-escuro);
-    transition: ;
-    color: var(--azul-verde);
+    background-color: var(--azul-claro);
+    transition: 0.9s;
+    color: var(--braco-puro);
     cursor: pointer;
 }
 

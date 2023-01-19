@@ -1,10 +1,7 @@
 @charset "UTF-8";
 @media screen and (max-width: 768px) {
 
-    .flex-logo {
-        display: none;
-    }
-
+  
     :root { /* ----CORES DO SITE---- */
         --azul:             #03A9F4;
         --azul-claro:       #00BCD4;
@@ -19,24 +16,29 @@
         --preto:            #000000;
         --preto-claro:      #343A40;
     }
-    
-
     /******MOBILE FORST******************/
 
     .flex-itens-menu ul .logo-mobi {
-        display: block;
+        display: flex;
         margin: 0 auto;
         padding-bottom: 30px;
     }
-    .logo-mobi {
-        width: 4em;
+
+    .fundo h1 {
+        display: flex;
+        color: red;
+        font-family: sans-serif;
+        justify-content: flex-end;
+        font-size: 25px;
+        padding: 0 25px;
+        cursor: pointer;
     }
+   
     .flex-itens-menu .fundo{
         border-bottom: 3px solid var(--azul-verde);
-       display: block;
-       margin: 0px -87px;  
-       margin-bottom: 20px;
-
+        display: block;
+        margin: 0px -95px;  
+        margin-bottom: 20px;
     }
   
     ul {
@@ -45,10 +47,9 @@
         left: 0;
         top: 0;
         height: 100%;
-        padding: 20px 87px;
+        padding: 20px 93px;
         flex-direction: column;
     }
-
 
      li {
         margin-bottom: 30px;
@@ -70,8 +71,13 @@
     }
 
     #menu {
+        display: none;
+    }
+
+    .flex-logo {
         display: ;
     }
+
 
 }   /* Mobile de 550 px */
 
