@@ -4,6 +4,7 @@ function clickMenu() {
     } else {
         menu.style.display = 'flex'
     }
+    
 }
 
 function closeFechar() {
@@ -12,4 +13,5 @@ function closeFechar() {
    } else {
         menu.style.display = 'flex'
    }
+   window.location.reload()
 }
