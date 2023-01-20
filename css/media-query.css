@@ -3,7 +3,7 @@
 
   
     :root { /* ----CORES DO SITE---- */
-        --azul:             #03A9F4;
+        --azul:             #0202d3;
         --azul-claro:       #00BCD4;
         --azul-verde:       #00FFFF;
         --roxo:             #8D239F;
@@ -18,6 +18,19 @@
     }
     /******MOBILE FORST******************/
 
+    /**** CORPO DA PAGINA ******/
+    main h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        font-size: 18px;
+        color: #0202d3;
+    }
+
+
+    /**** FIM DO CORPO DA PAGINA ******/
+    
     .flex-itens-menu ul .logo-mobi {
         display: flex;
         margin: 0 auto;
@@ -35,7 +48,7 @@
     }
    
     .flex-itens-menu .fundo{
-        border-bottom: 3px solid var(--azul-verde);
+        border-bottom: 3px solid var(--azul);
         display: block;
         margin: 0px -95px;  
         margin-bottom: 20px;
@@ -94,13 +107,28 @@
         height: 30px;
         font-family: sans-serif;
         font-size: 13px;
+        font-weight: bold;
     }
     
     .menu-busca input[type="button"]:hover {
-        background-color: var(--ciza-escuro);
+        background-color: var(--preto);
         transition: ;
-        color: var(--azul-verde);
+        color: var(--azul);
         cursor: pointer;
+        font-weight: bold;
+    }
+
+    .flex-footer h2 {
+        font-size: 20px;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        color: var(--azul);
+    }
+
+    .flex-footer h2 span {
+        font-size: 13px;
+        color: var(--braco-puro);
     }
 
 
@@ -119,12 +147,14 @@
             height: 30px;
             font-family: sans-serif;
             font-size: 12px;
+            font-weight: bold;
         }
         
         .menu-busca input[type="button"]:hover {
-            background-color: var(--ciza-escuro);
-            color: var(--azul-verde);
+            background-color: var(--preto);
+            color: var(--azul);
             cursor: pointer;
+            font-weight: bold;
         }
        
         
