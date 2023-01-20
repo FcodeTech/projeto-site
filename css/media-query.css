@@ -35,6 +35,7 @@
         display: flex;
         margin: 0 auto;
         padding-bottom: 30px;
+        z-index: 1;
     }
 
     .fundo h1 {
@@ -45,6 +46,7 @@
         font-size: 25px;
         padding: 0 25px;
         cursor: pointer;
+        z-index: 1;
     }
    
     .flex-itens-menu .fundo{
@@ -52,6 +54,7 @@
         display: block;
         margin: 0px -95px;  
         margin-bottom: 20px;
+        z-index: 1;
     }
   
     ul {
@@ -62,11 +65,13 @@
         height: 100%;
         padding: 20px 93px;
         flex-direction: column;
+        z-index: 1;
     }
 
      li {
         margin-bottom: 30px;
         margin-top: 30px;
+        z-index: 1;
     }
 
     li a {
@@ -75,6 +80,7 @@
         letter-spacing: 2px;
         padding: 0px 10px;
         border-radius: none;
+        z-index: 1;
     }
 
 
@@ -90,9 +96,9 @@
     .flex-logo {
         display: ;
     }
-
-
 }   /* Mobile de 550 px */
+
+
 
 @media screen and (max-width: 450px) {
     
@@ -130,9 +136,10 @@
         font-size: 13px;
         color: var(--braco-puro);
     }
-
-
 }   /* Mobile de 350 px */
+
+
+
 
     @media screen and (max-width: 350px) {
     
@@ -156,7 +163,8 @@
             cursor: pointer;
             font-weight: bold;
         }
-       
+
+
         
 }
     

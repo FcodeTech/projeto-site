@@ -27,8 +27,13 @@
     font-size: 16px;
 }
 
-/* Menu de navegação */
+body {
+    background: linear-gradient(#c0c0c09e, #d3d3d338);
+}
 
+
+
+/* Menu de navegação */
 .flex-navbar {
     display: flex;
     gap: 8px;
@@ -77,6 +82,8 @@
 .fundo h1 {
     display: none;
 }
+
+
 
 /* Fim do estilo do menu */
 .menu-pesquisa {
@@ -127,6 +134,21 @@
 
 
 
+/******** SLIDER SHOW *******************/
+
+.gallery {
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.item img {
+    width: 100%;
+}
+
+/******** FIM DO SLIDE ******************/
+
+
+
 /********** INICIO DO MAIN **************/
 main {
     display: flex;
@@ -136,8 +158,8 @@ main {
 main .corpo {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#c0c0c09e, #d3d3d338);
-    max-width: 1030px;
+    /* background: linear-gradient(#c0c0c09e, #d3d3d338); */
+    max-width: 1280px;
     margin: 15px auto;
     border-radius: 10px;
 }
@@ -165,7 +187,7 @@ main h3 {
 
 /********** INICIO DO FOOTER **********/
 footer .flex-footer {
-    background: linear-gradient(#000000, #000000c7);
+    background: linear-gradient(#000000, #000000db);
     justify-content: center;
     justify-items: center;
     display: flex;
