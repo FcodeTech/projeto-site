@@ -12,145 +12,178 @@
 </head>
 <body>
 
-    <header> <!-- Inicio do Menu de Navegação -->
-            <nav class="flex-navbar">
-                <div class="humburgue" id="burgue"> <!-- Menu humburgue -->
-                    <img  onclick="clickMenu()" src="imagens/humburgue-23.png">
-                </div>
+<header> <!-- Inicio do Menu de Navegação -->
+    <nav class="flex-navbar">
+        <div class="humburgue" id="burgue"> <!-- Menu humburgue -->
+            <img onclick="clickMenu()" src="imagens/humburgue-23.png">
+        </div>
 
-                <div class="flex-logo" id="logo"> <!-- Logo tipo -->
-                    <a href="index.html"><img src="imagens/Logo-Arch.png"></a>
-                </div>
+        <div class="flex-logo" id="logo"> <!-- Logo tipo -->
+            <a href="index.html"><img src="imagens/Logo-Arch.png"></a>
+        </div>
 
-                <div class="flex-itens-menu" id="menu"> <!-- Menu de navegação -->
-                    <ul>
-                        <li class="fundo">
-                            <h1 onclick="closeFechar()"> X </h1>
-                            <img class="logo-mobi" src="imagens/Logo-Arch.png">
-                        </li> 
-                        <li><a href=""> Inicio </a></li>
-                        <li><a href=""> Sobre </a></li>
-                        <li><a href=""> Produto </a></li>
-                        <li><a href=""> Contato </a></li>
-                    </ul>
-                </div>
-            </nav>
-            
-            <div class="menu-pesquisa"> <!-- Input de pesquisa -->
-                <div class="menu-busca">
-                    <input type="text" placeholder="Digite aqui sua..."/>
-                    <input type="button" value="Buscar">
-                </div>      
-            </div>
-            <div class="menu-barra"></div> <!-- Barra inferior da navbar -->
-    </header> <!-- Fim do Menu de Navegação -->
+        <div class="flex-itens-menu" id="menu"> <!-- Menu de navegação -->
+            <ul>
+                <li class="fundo">
+                    <h1 onclick="closeFechar()"> X </h1>
+                    <img class="logo-mobi" src="imagens/Logo-Arch.png">
+                </li>
+                <li><a href=""> Inicio </a></li>
+                <li><a href=""> Sobre </a></li>
+                <li><a href=""> Produto </a></li>
+                <li><a href=""> Contato </a></li>
+            </ul>
+        </div>
+    </nav>
 
-
-
-
-    <!-- INICIO DO SLIDER DE CSS PURO -->
-    <div class="gallery autoplay items-5">
-
-        <div id="item-1" class="control-operator"></div>
-        <div id="item-2" class="control-operator"></div>
-        <div id="item-3" class="control-operator"></div>
-        <div id="item-4" class="control-operator"></div>
-        <div id="item-5" class="control-operator"></div>
-        <div id="item-6" class="control-operator"></div>
-
-        <!-- chamada das imagens -->
-        <figure class="item">
-            <h1> <img src="imagens/banner-1.jpg"></h1>
-        </figure>
-
-        <figure class="item">
-            <h1> <img src="imagens/banner-2.jpg"></h1>
-        </figure>
-
-        <figure class="item">
-            <h1> <img src="imagens/banner-3.jpg"></h1>
-        </figure>
-
-        <figure class="item">
-            <h1> <img src="imagens/Banner-4.jpg"></h1>
-        </figure>
-
-        <figure class="item">
-            <h1> <img src="imagens/Banner-5.jpg"></h1>
-        </figure>
-
-        <figure class="item">
-            <h1> <img src="imagens/Banner-6.jpg"></h1>
-        </figure>
-
-        <!-- botoes de controle do slider -->
-        <div class="controls">
-            <a href="#item-1" class="control-button"> . </a>
-            <a href="#item-2" class="control-button"> . </a>
-            <a href="#item-3" class="control-button"> . </a>
-            <a href="#item-4" class="control-button"> . </a>
-            <a href="#item-5" class="control-button"> . </a>
-            <a href="#item-6" class="control-button"> . </a>
+    <div class="menu-pesquisa"> <!-- Input de pesquisa -->
+        <div class="menu-busca">
+            <input type="text" placeholder="Digite aqui sua..."/>
+            <input type="button" value="Buscar">
         </div>
     </div>
-    <!-- FIM DO SLIDER DE CSS PURO -->
+    <div class="menu-barra"></div> <!-- Barra inferior da navbar -->
+</header> <!-- Fim do Menu de Navegação -->
 
 
 
-    <main> <!-- Inicio do Conteudo -->
-        <div class="corpo">
-            <h3> Lorem ipsum dolor sit amet </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur nisi ratione incidunt ipsum velit.
-            </p>
 
-            <h3> Lorem ipsum dolor sit amet </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur nisi ratione incidunt ipsum velit.
-            </p>
+<!-- Slideshow container ---------------------------------------- -->
 
-            <h3> Lorem ipsum dolor sit amet </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur nisi ratione incidunt ipsum velit.
-            </p>
+<div class="slideshow-container">
 
-            <h3> Lorem ipsum dolor sit amet </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur nisi ratione incidunt ipsum velit.
-            </p>
+    <!-- Full-width images with number and caption text -->
+    <div class="meuSlider esmaecer">
+        <div class="numbertext">1 / 6</div>
+        <img src="imagens/Banner-1.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
 
-            <h3> Lorem ipsum dolor sit amet </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur nisi ratione incidunt ipsum velit.
-            </p>
+    <div class="meuSlider esmaecer">
+        <div class="numbertext">2 / 6</div>
+        <img src="imagens/Banner-2.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
+
+    <div class="meuSlider esmaecer">
+        <div class="numbertext">3 / 6</div>
+        <img src="imagens/Banner-3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="meuSlider esmaecer">
+        <div class="numbertext">4 / 6</div>
+        <img src="imagens/Banner-4.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="meuSlider esmaecer">
+        <div class="numbertext">5 / 6</div>
+        <img src="imagens/Banner-5.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="meuSlider esmaecer">
+        <div class="numbertext">6 / 6</div>
+        <img src="imagens/Banner-6.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="anterior" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="proximo" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="ponto" onclick="currentSlide(1)"></span>
+    <span class="ponto" onclick="currentSlide(2)"></span>
+    <span class="ponto" onclick="currentSlide(3)"></span>
+    <span class="ponto" onclick="currentSlide(4)"></span>
+    <span class="ponto" onclick="currentSlide(5)"></span>
+    <span class="ponto" onclick="currentSlide(6)"></span>
+</div>
+
+<!-- FIM DOO SLIDER   ---------------------------------------------- -->
+
+
+
+
+
+<main> <!-- Inicio do Conteudo -->
+    <div class="corpo">
+        <h3> Lorem ipsum dolor sit amet </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum
+            doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet
+            repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur
+            nisi ratione incidunt ipsum velit.
+        </p>
+
+        <h3> Lorem ipsum dolor sit amet </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum
+            doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet
+            repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur
+            nisi ratione incidunt ipsum velit.
+        </p>
+
+        <h3> Lorem ipsum dolor sit amet </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum
+            doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet
+            repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur
+            nisi ratione incidunt ipsum velit.
+        </p>
+
+        <h3> Lorem ipsum dolor sit amet </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum
+            doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet
+            repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur
+            nisi ratione incidunt ipsum velit.
+        </p>
+
+        <h3> Lorem ipsum dolor sit amet </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique nobis dolorum assumenda dicta eum
+            doloribus quis sunt, quaerat rem suscipit, incidunt mollitia velit nihil magnam magni deleniti minima vero?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad, repellat natus ratione amet
+            repudiandae laudantium. Commodi aliquam molestias reprehenderit cupiditate in inventore est. Consequatur
+            nisi ratione incidunt ipsum velit.
+        </p>
+    </div>
+</main> <!-- Fim do Conteudo -->
+
+
+<footer> <!-- Inicio do Rodapé -->
+    <div class="flex-footer"> <!-- Texto do footer -->
+        <h2> Copyright &copy &nbsp;<span>Todos os direitos autorais reservardo</span></h2>
+    </div>
+
+    <div class="itens-flex"> <!-- Menu do footer-->
+        <div class="footer-menu">
+            <h3> Menu de Navegação </h3>
+            <a href=""> Inicio </a>
+            <a href=""> Sobre </a>
+            <a href=""> Produto </a>
+            <a href=""> Contato </a>
         </div>
-    </main> <!-- Fim do Conteudo -->
+        <div class="footer-sociais">
+            <h3> Rede Sociais </h3>
+            <a href=""> WhatSapp </a>
+            <a href=""> Instagram </a>
+            <a href=""> FaceBoock </a>
+            <a href=""> YouTube </a>
+        </div>
+    </div>
+</footer> <!-- Fim do Rodapé -->
 
-
-
-    <footer> <!-- Inicio do Rodapé -->
-            <div class="flex-footer"> <!-- Texto do footer -->
-                <h2> Copyright &copy &nbsp;<span>Todos os direitos autorais reservardo</span> </h2>
-            </div>
-            
-            <div class="itens-flex"> <!-- Menu do footer-->
-                <div class="footer-menu">
-                    <h3> Menu de Navegação </h3>
-                    <a href=""> Inicio </a>
-                    <a href=""> Sobre </a>
-                    <a href=""> Produto </a>
-                    <a href=""> Contato </a>
-                </div>
-                <div class="footer-sociais">
-                    <h3> Rede Sociais </h3>
-                    <a href=""> WhatSapp </a>
-                    <a href=""> Instagram </a>
-                    <a href=""> FaceBoock </a>
-                    <a href=""> YouTube </a>
-                </div>
-            </div>    
-    </footer> <!-- Fim do Rodapé -->
-
-    <script src="javascript/script.js"></script>
+<script src="javascript/script.js"></script>
 </body>
 </html>

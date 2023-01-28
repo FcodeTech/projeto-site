@@ -1,3 +1,4 @@
+/**************Abrir Menu *******************/
 function clickMenu() {
     if  (menu.style.display == 'flex') {
         menu.style.display = 'none'
@@ -6,7 +7,7 @@ function clickMenu() {
     }
     
 }
-
+/******** Fechar Menu **********************/
 function closeFechar() {
    if (menu.style.display == 'flex') {
        menu.style.display = 'none'
@@ -15,3 +16,20 @@ function closeFechar() {
    }
    window.location.reload()
 }
+
+/****** Slide css javascript **********/
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("meuSlider");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+/****** Fim Slide css javascript **********/
