@@ -96,6 +96,11 @@
     .flex-logo {
         display: ;
     }
+
+
+    .column {
+        width: 50%;
+    }
 }   /* Mobile de 550 px */
 
 
@@ -136,6 +141,10 @@
         font-size: 13px;
         color: var(--braco-puro);
     }
+
+    .column {
+        width: 100%;
+    }
 }   /* Mobile de 350 px */
 
 
@@ -162,6 +171,9 @@
             color: var(--azul);
             cursor: pointer;
             font-weight: bold;
+        }
+        .column {
+            width: 100%;
         }
 
 
